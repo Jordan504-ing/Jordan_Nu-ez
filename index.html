@@ -3,48 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
-    <title>Mi Sitio Personal</title>
+    <title>jordan market</title>
+    <link rel="stylesheet" href="estyle.css">
+    <!-- Fuente de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        .logo-img {
+            width: 80px;   /* Puedes ajustar el tamaño */
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Jordan Nuñez</h1>
-        <img src="img/cristiano-ronaldo-llora-en-la-final-portugal-gana-liga-de-naciones-201358.jpg" alt=" " class="perfil">
+    <!-- Encabezado con logo y navegación -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img class="logo-img" src="img/ocupo hacer un logo que lleve el nombre de jordan market.jpg" alt="jordan market  Logo">
+                <h1>jordan market</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <section class="biografia">
-        <h2>Biografía</h2>
-        <p>Hola, soy jordan . Me gusta  la programacion  y el futbol. Disfruto de aprender cosas nuevas y enfrentar problemas .</p>
+
+    <!-- Sección Hero (principal) -->
+    <section class="hero">
+        <div class="container">
+            <h2>consigue los mejores productos </h2>
+            <p>productos frescos y 100% naturales </p>
+            <a href="#contacto" class="btn">reserva tus productos </a>
+        </div>
     </section>
-    
-    <section class="intereses">
-        <h2>Intereses</h2>
-        <ul>
-            <li>Programación</li>
-            <li>Futbol </li>
-            <li>Ir al Gym </li>
-            <li>Cocina</li>
-        </ul>
+
+    <!-- Sección de servicios/beneficios -->
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios-grid">
+                <div class="servicio">
+                    <h3>frutas</h3>
+                    <p>tenemos todo tipo de frutas/verduras 100% frescos y confiables  </p>
+                </div>
+                <div class="servicio">
+                    <h3>productos electronicos</h3>
+                    <p>tenemos una variedad de dispositivos electronicos con los jeores precios y seguros de ellos.</p>
+                </div>
+                <div class="servicio">
+                    <h3>productos para casa </h3>
+                    <p>tenemos los productos para casa tanto muebles como dispositivos electronicos </p>
+                </div>
+            </div>
+        </div>
     </section>
-    
-    <section class="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Programacion</li>
-            <li>Matematicas</li>
-            <li>Redes</li>
-        </ul>
+
+    <!-- Sección de testimonios -->
+    <section id="testimonios" class="testimonios">
+        <div class="container">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <div class="testimonios-grid">
+                <div class="testimonio">
+                    <img src="img/haz una imagen de clientes satisfechos con frutas_verduras.jpg" alt="Cliente satisfecho">
+                    <blockquote>"los productos mejores los conseguimos aqui "</blockquote>
+                    <cite>- María y Juan</cite>
+                </div>
+                <div class="testimonio">
+                    <img src="img/haz una imagen de clientes satisfechos con productos electronicos.jpg" alt="Cliente satisfecho">
+                    <blockquote>"exelente productos electronicos con un buen precio."</blockquote>
+                    <cite>- Carlos, Emprendedor</cite>
+                </div>
+            </div>
+        </div>
     </section>
-    
-    <section class="contacto">
-        <h2>Contacto</h2>
-        <p>Email: nunezjordan923@gmail.com/p>
-        
+
+    <!-- Sección de llamado a la acción -->
+    <section class="cta">
+        <div class="container">
+            <h2>listos para conseguir los mejores productos al mejor precio aqui?</h2>
+            <a href="mailto:nunezjordan923@gmail.com?subject=Consulta%20Jordan%20Market" class="btn">Contáctanos ahora</a>
+        </div>
     </section>
-    
-    <footer>
-        <p>&copy; 2025 Jordan Nuñez 
-        </p>
+
+    <!-- Pie de página -->
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <div class="footer-info">
+                <h3>Contacto</h3>
+                <p>nunezjordan923@gmail.com</p>
+                <p>+504 9928-5388</p>
+            </div>
+            <div class="footer-social">
+                <h3>Síguenos</h3>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2023 jordan market . Todos los derechos reservados.</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
